@@ -20,12 +20,9 @@ h1, h2, h3{
 
 h1{
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 3em;
   text-align: center;
-  color: #333;
-  padding: 0em;
-  margin-bottom: 2em;
 
 }
 
@@ -40,12 +37,30 @@ h4{
 }
 
 .list{
-  padding: 3em 8em;
+  padding: 3em 8em 15%;
   animation: fadein 2s;
   position: relative;
   z-index: 0;
 }
 
+.titles {
+  animation: fadein 2s;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.titles a {
+  float: left;
+  width: 40%;
+}
+
+.center {
+  text-align: center;
+  width: 100vw;
+  margin-top: 3vh;
+}
 
 a, a:visited {
   color: #000;
@@ -57,29 +72,27 @@ a:hover {
   color: blue;
 }
 
-.bio{
-  padding: 1.8em 0em 3em 2em;
-  float: right;
-  text-align: justify;
-  width: 30vw;
-  z-index: 99999;
-  position: relative;
-}
-
-.bioTitle{
-  display: none;
-}
-
 .contact{
+  animation: fadein 5s;
   text-align: center;
   margin-bottom: 3em;
-}
-.contact h3{
-  font-size: 1.8em;
+  display: block;
 }
 
 .contact a{
   text-decoration: underline;
+}
+
+.image {
+  object-fit: fill;
+  width: 100vw;
+}
+
+.teeth-image {
+  object-fit: fill;
+  width: 100vw;
+  justify-content: flex-end;
+  bottom: 0;
 }
 
 .fab, .fas{
