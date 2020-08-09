@@ -143,13 +143,9 @@ a > .fab, a > .fas{
           text-align: center;
           display: block;
           vertical-align: top;
-  }
-  .titles a {
-    float: left;
-    width: 40%;
-}
-
-        .bioTitle{
-          display: block;
+        }
+        .titles a {
+          float: left;
+          width: 100%;
         }
     }
