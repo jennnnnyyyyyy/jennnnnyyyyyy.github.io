@@ -137,13 +137,17 @@ a > .fab, a > .fas{
         .list{
           padding: 0em 3em;
         }
-        .bio{
-          padding: 1em 0;
-          float: none;
-          text-align: left;
+        .titles {
+          animation: fadein 2s;
           width: 100%;
-          margin: 0 auto;
-        }
+          text-align: center;
+          display: block;
+          vertical-align: top;
+  }
+  .titles a {
+    float: left;
+    width: 40%;
+}
 
         .bioTitle{
           display: block;
