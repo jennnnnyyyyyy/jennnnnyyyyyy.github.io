@@ -10,7 +10,7 @@
 /* Hide the images by default */
 .mySlides {
   display: block;
-  height: 500px;
+  height: 300px;
 }
 
 /* Caption text */
@@ -18,7 +18,7 @@
   font-size: 32px;
   padding: 8px 12px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -41,3 +41,10 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+@media only screen and (max-device-width: 480px) {
+  .mySlides {
+    display: block;
+    height: 600px;
+  }
+}
+  
