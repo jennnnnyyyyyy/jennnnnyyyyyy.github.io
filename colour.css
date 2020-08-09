@@ -5,8 +5,8 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: #eeeeee;
-  color: #111111;
+  background-color: #000000;
+  color: #fb00ff;
 }
 
 /*
@@ -14,7 +14,7 @@ h1 is the bold "Your Name" at the top of the page.
  */
 
 h1{
-color: #111111;
+color: #fb00ff;
 }
 
 /*
